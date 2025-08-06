@@ -1,0 +1,79 @@
+@page "/passages/create"
+@using Microsoft.EntityFrameworkCore
+@using DuneLibrary.Models
+@inject IDbContextFactory<DuneLibrary.Data.DuneLibraryContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h2>Passage</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Passage" OnValidSubmit="AddPassage" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" role="alert"/>
+            <div class="mb-3">
+                <label for="Passages" class="form-label">Passages:</label> 
+                <InputText id="Passages" @bind-Value="Passage.Passages" class="form-control" /> 
+                <ValidationMessage For="() => Passage.Passages" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="book" class="form-label">Book:</label> 
+                <InputText id="book" @bind-Value="Passage.Book" class="form-control" /> 
+                <ValidationMessage For="() => Passage.Book" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="chapternum" class="form-label">Chapter Number:</label> 
+                <InputNumber id="chapternum" @bind-Value="Passage.ChapterNum" class="form-control" /> 
+                <ValidationMessage For="() => Passage.ChapterNum" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="author" class="form-label">Author:</label> 
+                <InputText id="author" @bind-Value="Passage.Author" class="form-control" /> 
+                <ValidationMessage For="() => Passage.Author" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="series" class="form-label">Series:</label> 
+                <InputText id="series" @bind-Value="Passage.Series" class="form-control" /> 
+                <ValidationMessage For="() => Passage.Series" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="organization" class="form-label">Organization:</label> 
+                <InputText id="organization" @bind-Value="Passage.Organization" class="form-control" /> 
+                <ValidationMessage For="() => Passage.Organization" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="wordcount" class="form-label">Word Count:</label> 
+                <InputNumber id="wordcount" @bind-Value="Passage.WordCount" class="form-control" /> 
+                <ValidationMessage For="() => Passage.WordCount" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="averagerating" class="form-label">Average Rating:</label> 
+                <InputNumber id="averagerating" @bind-Value="Passage.AverageRating" class="form-control" /> 
+                <ValidationMessage For="() => Passage.AverageRating" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/passages">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private Passage Passage { get; set; } = new();
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddPassage()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Passage.Add(Passage);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/passages");
+    }
+}

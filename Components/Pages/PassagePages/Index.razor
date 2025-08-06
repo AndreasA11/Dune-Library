@@ -1,0 +1,43 @@
+@page "/passages"
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using DuneLibrary.Models
+@using DuneLibrary.Data
+@implements IAsyncDisposable
+@inject IDbContextFactory<DuneLibrary.Data.DuneLibraryContext> DbFactory
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<p>
+    <a href="passages/create">Create New</a>
+</p>
+
+<QuickGrid Class="table" Items="context.Passage">
+    <PropertyColumn Property="passage => passage.Passages" />
+    <PropertyColumn Property="passage => passage.Book" />
+    <PropertyColumn Property="passage => passage.ChapterNum" Title ="Chapter #"/>
+    <PropertyColumn Property="passage => passage.Author" />
+    <PropertyColumn Property="passage => passage.Series" />
+    <PropertyColumn Property="passage => passage.Organization" />
+    <PropertyColumn Property="passage => passage.WordCount" Title ="Word Count"/>
+    <PropertyColumn Property="passage => passage.AverageRating" Title ="Average Rating"/>
+
+    <TemplateColumn Context="passage">
+        <a href="@($"passages/edit?id={passage.Id}")">Edit</a> |
+        <a href="@($"passages/details?id={passage.Id}")">Details</a> |
+        <a href="@($"passages/delete?id={passage.Id}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    private DuneLibraryContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}
