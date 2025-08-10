@@ -22,6 +22,18 @@
             <option value="Heretics of Dune">Heretics of Dune</option>
             <option value="Chapterhouse: Dune">Chapterhouse: Dune</option>
         </select>
+        <select name = "OrganizationNameDropdown">    
+            <option value=""></option>
+            <option value="Bene Gesserit">Bene Gesserit</option>
+            <option value="Bene Tleilax">Bene Tleilax</option>
+            <option value="CHOAM">CHOAM</option>
+            <option value="Fremen">Fremen</option>
+            <option value="God Emperor Regime">God Emperor Regime</option>
+            <option value="Honored Matres">Honored Matres</option>
+            <option value="Mahdi Spirit Cult">Mahdi Spirit Cult</option>
+            <option value="Mentats">Mentats</option>
+            <option value="Spacing Guild">Spacing Guild</option>
+        </select>
         <input type="search" name="AuthorNameSearch" />
         <input type="submit"/>
     </form>
@@ -59,23 +71,24 @@
     [SupplyParameterFromQuery]
     private string? BookNameDropdown { get; set; }
     
-    private IQueryable<Passage> FilteredPassages =>
-        context.Passage.Where(p => (p.Author.Contains(AuthorNameSearch ?? string.Empty) && p.Book.Equals(BookNameDropdown ?? string.Empty)));
-    
-    private IQueryable<Passage> FilteredPassages2 =>
-        context.Passage.Where(p => (p.Author.Contains(AuthorNameSearch ?? string.Empty) && p.Book.Contains(BookNameDropdown ?? string.Empty)));
-    
+    [SupplyParameterFromQuery]
+    private string? OrganizationNameDropdown { get; set; }
+
     //Changes what the filtering of the passage is based on what BookNameDropdown is
     //if BookNameDropdown is nothing, allow for author based searching to work regardless of book name
     //else need both book name and author name of passage to be correct
     private IQueryable<Passage> setFilteredPassage() {
         if(BookNameDropdown == "") {
             IQueryable<Passage> FilteredPassages1 =   
-                context.Passage.Where(p => (p.Author.Contains(AuthorNameSearch ?? string.Empty) && p.Book.Contains(BookNameDropdown ?? string.Empty))); 
+                context.Passage.Where(p => (p.Author.Contains(AuthorNameSearch ?? string.Empty) 
+                && p.Book.Contains(BookNameDropdown ?? string.Empty)
+                && p.Organization.Contains(OrganizationNameDropdown ?? string.Empty))); 
             return FilteredPassages1;
         } else {
             IQueryable<Passage> FilteredPassages2 =
-                context.Passage.Where(p => (p.Author.Contains(AuthorNameSearch ?? string.Empty) && p.Book.Equals(BookNameDropdown ?? string.Empty)));
+                context.Passage.Where(p => (p.Author.Contains(AuthorNameSearch ?? string.Empty) 
+                && p.Book.Equals(BookNameDropdown ?? string.Empty)
+                && p.Organization.Contains(OrganizationNameDropdown ?? string.Empty)));
             return FilteredPassages2;
         }
     }

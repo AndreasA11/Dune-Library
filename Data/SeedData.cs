@@ -14,7 +14,7 @@ public class SeedData
         if (context == null || context.Passage == null)
         {
             throw new NullReferenceException(
-                "Null BlazorWebAppMoviesContext or Movie DbSet");
+                "Null DuneLibraryContext or Passage DbSet");
         }
 
         if (context.Passage.Any())
