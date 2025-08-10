@@ -8,7 +8,7 @@ public class Passage
     public int Id { get; set; }
 
     [Required]
-    public string? Passages { get; set; }
+    public string Passages { get; set; } = string.Empty;
 
     [Required]
     [RegularExpression(@"^[a-zA-Z0-9\-\?\!\.\'\:\;\,\""\s\/]+$")]

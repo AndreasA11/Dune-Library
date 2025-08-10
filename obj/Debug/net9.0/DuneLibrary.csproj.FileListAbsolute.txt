@@ -714,3 +714,4 @@
 /Users/andreasandradeshahinyan/CSharp/DuneLibrary/Dune-Library/obj/Debug/net9.0/DuneLibrary.pdb
 /Users/andreasandradeshahinyan/CSharp/DuneLibrary/Dune-Library/obj/Debug/net9.0/DuneLibrary.genruntimeconfig.cache
 /Users/andreasandradeshahinyan/CSharp/DuneLibrary/Dune-Library/obj/Debug/net9.0/ref/DuneLibrary.dll
+/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/DuneLibrary.sourcelink.json
