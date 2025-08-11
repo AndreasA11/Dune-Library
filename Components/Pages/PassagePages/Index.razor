@@ -7,13 +7,14 @@
 @implements IAsyncDisposable
 @inject IDbContextFactory<DuneLibrary.Data.DuneLibraryContext> DbFactory
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Welcome to Dune Library</PageTitle>
 
 <h1>Index</h1>
 
 <div>
     <form action="/passages" data-enhance data-permanent>
-        <select name = "BookNameDropdown">    
+        <label for="bookNameDrop">Filter by book name</label>
+        <select id="bookNameDrop"name = "BookNameDropdown">    
             <option value=""></option>
             <option value="Dune">Dune</option>
             <option value="Dune Messiah">Dune Messiah</option>
@@ -22,7 +23,8 @@
             <option value="Heretics of Dune">Heretics of Dune</option>
             <option value="Chapterhouse: Dune">Chapterhouse: Dune</option>
         </select>
-        <select name = "OrganizationNameDropdown">    
+        <label for="organizationDropdown">Filter by organization</label>
+        <select id="organizationDropdown"name = "OrganizationNameDropdown">    
             <option value=""></option>
             <option value="Bene Gesserit">Bene Gesserit</option>
             <option value="Bene Tleilax">Bene Tleilax</option>
@@ -57,7 +59,6 @@
     <PropertyColumn Property="passage => passage.Series" />
     <PropertyColumn Property="passage => passage.Organization" />
     <PropertyColumn Property="passage => passage.WordCount" Title ="Word Count"/>
-    <PropertyColumn Property="passage => passage.AverageRating" Title ="Average Rating"/>
 
     <TemplateColumn Context="passage">
         <a href="@($"passages/edit?id={passage.Id}")">Edit</a> |

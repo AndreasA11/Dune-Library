@@ -49,12 +49,7 @@
                 <label for="wordcount" class="form-label">Word Count:</label> 
                 <InputNumber id="wordcount" @bind-Value="Passage.WordCount" class="form-control" /> 
                 <ValidationMessage For="() => Passage.WordCount" class="text-danger" /> 
-            </div>        
-            <div class="mb-3">
-                <label for="averagerating" class="form-label">Average Rating:</label> 
-                <InputNumber id="averagerating" @bind-Value="Passage.AverageRating" class="form-control" /> 
-                <ValidationMessage For="() => Passage.AverageRating" class="text-danger" /> 
-            </div>        
+            </div>              
             <button type="submit" class="btn btn-primary">Create</button>
         </EditForm>
     </div>
