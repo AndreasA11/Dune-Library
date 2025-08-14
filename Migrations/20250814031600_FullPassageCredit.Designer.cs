@@ -2,6 +2,7 @@
 using DuneLibrary.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DuneLibrary.Migrations
 {
     [DbContext(typeof(DuneLibraryContext))]
-    partial class DuneLibraryContextModelSnapshot : ModelSnapshot
+    [Migration("20250814031600_FullPassageCredit")]
+    partial class FullPassageCredit
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.8");
