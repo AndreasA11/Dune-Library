@@ -34,6 +34,6 @@ public class Passage
     public float? AverageRating { get; set; }
 
     [Required]
-    [RegularExpression(@"^[a-zA-Z0-9\-\?\!\.\'\:\;\,\""\s\/]+$")]
+    [RegularExpression(@"^[a-zA-Z0-9\-\?\!\.\'\:\;\,\""\s\/\(\)]+$")]
     public string FullPassageCredit { get; set; } = string.Empty;
 }

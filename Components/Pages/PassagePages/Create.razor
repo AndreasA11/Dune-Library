@@ -44,12 +44,18 @@
                 <label for="organization" class="form-label">Organization:</label> 
                 <InputText id="organization" @bind-Value="Passage.Organization" class="form-control" /> 
                 <ValidationMessage For="() => Passage.Organization" class="text-danger" /> 
-            </div>        
+            </div>  
+            <div class="mb-3">
+                <label for="fullPassageCredit" class="form-label">Full Passage Credit:</label> 
+                <InputText id="fullPassageCredit" @bind-Value="Passage.FullPassageCredit" class="form-control" /> 
+                <ValidationMessage For="() => Passage.FullPassageCredit" class="text-danger" /> 
+            </div>  
             <div class="mb-3">
                 <label for="wordcount" class="form-label">Word Count:</label> 
                 <InputNumber id="wordcount" @bind-Value="Passage.WordCount" class="form-control" /> 
                 <ValidationMessage For="() => Passage.WordCount" class="text-danger" /> 
-            </div>              
+            </div>        
+                        
             <button type="submit" class="btn btn-primary">Create</button>
         </EditForm>
     </div>
