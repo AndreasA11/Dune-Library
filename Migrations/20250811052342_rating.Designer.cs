@@ -11,7 +11,7 @@ namespace DuneLibrary.Migrations
 {
     [DbContext(typeof(DuneLibraryContext))]
     [Migration("20250811052342_rating")]
-    partial class rating
+    partial class Rating
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

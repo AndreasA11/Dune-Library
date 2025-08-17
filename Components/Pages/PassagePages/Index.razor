@@ -1,4 +1,5 @@
 @page "/passages"
+@rendermode InteractiveServer
 @using Microsoft.CodeAnalysis.CSharp.Syntax
 @using Microsoft.EntityFrameworkCore
 @using Microsoft.AspNetCore.Components.QuickGrid
@@ -40,9 +41,10 @@
             <option value="Spacing Guild">Spacing Guild</option>
         </select>
         <label for="authorSearch">Passage Author Name Search</label>
-        <input id="authorSearch" type="search" name="AuthorNameSearch" />
+        <input id="authorSearch" type="search" @bind="AuthorNameSearch" @bind:event="oninput">
         <label for="keywordSearch">Passage Keyword Search</label>
-        <input id="keywordSearch" type="search" name="keywordSearch" />
+        <input id="keywordSearch" type="search" @bind="keywordSearchName" @bind:event="oninput" />
+        
         <input type="submit"/>
 
     </form>
@@ -53,28 +55,34 @@
 </p>
 
 
+<div>
+    <QuickGrid Id="QG1" Class="table" Items="setFilteredPassage()" Pagination = "pagination">
+        <PropertyColumn Property="passage => passage.Passages" Sortable="true" />
+        <PropertyColumn Property="passage => passage.Book" Sortable="true" />
+        <PropertyColumn Property="passage => passage.ChapterNum" Title ="Chapter #" Sortable="true" />
+        <PropertyColumn Property="passage => passage.Author" Sortable="true" />
+        <PropertyColumn Property="passage => passage.Series" Sortable="true"  />
+        <PropertyColumn Property="passage => passage.Organization" Sortable="true" />
+        <PropertyColumn Property="passage => passage.WordCount" Title ="Word Count" Sortable="true" />
 
-<QuickGrid Id="QG1" Class="table" Items="setFilteredPassage()">
-    <PropertyColumn Property="passage => passage.Passages" />
-    <PropertyColumn Property="passage => passage.Book" />
-    <PropertyColumn Property="passage => passage.ChapterNum" Title ="Chapter #"/>
-    <PropertyColumn Property="passage => passage.Author" />
-    <PropertyColumn Property="passage => passage.Series" />
-    <PropertyColumn Property="passage => passage.Organization" />
-    <PropertyColumn Property="passage => passage.WordCount" Title ="Word Count"/>
+        <TemplateColumn Context="passage">
+            <a href="@($"passages/edit?id={passage.Id}")">Edit</a> |
+            <a href="@($"passages/details?id={passage.Id}")">Details</a> |
+            <a href="@($"passages/delete?id={passage.Id}")">Delete</a>
+        </TemplateColumn>
+    </QuickGrid>
+</div>
 
-    <TemplateColumn Context="passage">
-        <a href="@($"passages/edit?id={passage.Id}")">Edit</a> |
-        <a href="@($"passages/details?id={passage.Id}")">Details</a> |
-        <a href="@($"passages/delete?id={passage.Id}")">Delete</a>
-    </TemplateColumn>
-</QuickGrid>
+
+<Paginator State="pagination" />
+
 
 @code {
+    private PaginationState pagination = new PaginationState { ItemsPerPage = 5 };
+
     private DuneLibraryContext context = default!;
-    [SupplyParameterFromQuery]
-    //private string? BookNameFilter { get; set; }
-    private string? AuthorNameSearch { get; set; }
+    
+    private string AuthorNameSearch = string.Empty;
     
     [SupplyParameterFromQuery]
     private string? BookNameDropdown { get; set; }
@@ -82,8 +90,7 @@
     [SupplyParameterFromQuery]
     private string? OrganizationNameDropdown { get; set; }
 
-    [SupplyParameterFromQuery]
-    private string? keywordSearch { get; set; }
+    private string keywordSearchName = string.Empty;
 
     //Changes what the filtering of the passage is based on what BookNameDropdown is
     //if BookNameDropdown is nothing, allow for author based searching to work regardless of book name
@@ -91,17 +98,17 @@
     private IQueryable<Passage> setFilteredPassage() {
         if(BookNameDropdown == "") {
             IQueryable<Passage> FilteredPassages1 =   
-                context.Passage.Where(p => (p.Author.Contains(AuthorNameSearch ?? string.Empty) 
+                context.Passage.Where(p => (p.Author.Contains(AuthorNameSearch) 
                 && p.Book.Contains(BookNameDropdown ?? string.Empty)
                 && p.Organization.Contains(OrganizationNameDropdown ?? string.Empty)
-                && p.Passages.Contains(keywordSearch ?? string.Empty))); 
+                && p.Passages.Contains(keywordSearchName))); 
             return FilteredPassages1;
         } else {
             IQueryable<Passage> FilteredPassages2 =
-                context.Passage.Where(p => (p.Author.Contains(AuthorNameSearch ?? string.Empty) 
+                context.Passage.Where(p => (p.Author.Contains(AuthorNameSearch) 
                 && p.Book.Equals(BookNameDropdown ?? string.Empty)
                 && p.Organization.Contains(OrganizationNameDropdown ?? string.Empty)
-                && p.Passages.Contains(keywordSearch ?? string.Empty)));
+                && p.Passages.Contains(keywordSearchName)));
             return FilteredPassages2;
         }
     }

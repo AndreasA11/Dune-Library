@@ -60,10 +60,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9QYXNzYWdlUGFnZXMvRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9QYXNzYWdlUGFnZXMvSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -83,3 +79,7 @@ build_metadata.AdditionalFiles.CssScope = b-l50bhcdhvb
 [/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-u0cwcvwj11
+
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9QYXNzYWdlUGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5omq9k269d
