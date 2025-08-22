@@ -1,9 +1,14 @@
 ::deep tr {
-    height: 3em;
+    height: 5em;
+    border-color: burlywood;
+    border-width: .2em;
+    opacity: 70%;
+
 }
 
     ::deep tr > td {
         vertical-align: middle;
+        
     }
 
 
@@ -12,14 +17,28 @@ body, html {
 }
 
 .mainContent {
-    background-image: url("sandDune1.webp");
-    position:relative;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    position: relative;
+    box-sizing: border-box;
+    
 }
 
+.backgroundImg {
+    background-image: url("sandDune4.jpg");
+    opacity: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.quickGridDiv {
+    margin: 5em;
+}
 
+.filterDiv {
+    padding: 5em;
+}
+
+.passageText {
+    padding-left: 2em;
+}
 

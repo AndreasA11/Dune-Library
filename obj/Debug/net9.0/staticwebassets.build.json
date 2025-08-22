@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1yogBp280IwtB82UIIgsk/Drl0sck/cYwv66B+rVy6w=",
+  "Hash": "Ai49Z+PYYyVm6GENfUcpY6zO4/s0+MfLjj379stwnQs=",
   "Source": "DuneLibrary",
   "BasePath": "_content/DuneLibrary",
   "Mode": "Default",
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "/root/.nuget/packages/microsoft.aspnetcore.components.quickgrid/9.0.8/staticwebassets/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css"
     },
     {
-      "Identity": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-iyrrkwv6pz.gz",
+      "Identity": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-vb2s2yrq97.gz",
       "SourceId": "DuneLibrary",
       "SourceType": "Computed",
       "ContentRoot": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/DuneLibrary",
-      "RelativePath": "DuneLibrary#[.{fingerprint=iyrrkwv6pz}]!.bundle.scp.css.gz",
+      "RelativePath": "DuneLibrary#[.{fingerprint=vb2s2yrq97}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -115,8 +115,8 @@
       "RelatedAsset": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/projectbundle/DuneLibrary.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lgd89orbpj",
-      "Integrity": "JW/USstHYzomwB/xhOXCwthZqH3IWzNn15PsTNqEpqk=",
+      "Fingerprint": "a7dt1he201",
+      "Integrity": "Fs12xp1iwEwqQkfnijWTAV+oVgW4zsw64mKciLjskDU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/projectbundle/DuneLibrary.bundle.scp.css"
@@ -269,12 +269,12 @@
       "OriginalItemSpec": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-txkblmag9t.gz",
+      "Identity": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-luldnwt450.gz",
       "SourceId": "DuneLibrary",
       "SourceType": "Computed",
       "ContentRoot": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/DuneLibrary",
-      "RelativePath": "DuneLibrary#[.{fingerprint=txkblmag9t}]?.styles.css.gz",
+      "RelativePath": "DuneLibrary#[.{fingerprint=luldnwt450}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -283,8 +283,8 @@
       "RelatedAsset": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/bundle/DuneLibrary.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "u0cnsa1hlo",
-      "Integrity": "Yg+RJta0ADPNo42uzTSYxTkCIILUfBGN7fMcSoifUmM=",
+      "Fingerprint": "zsa0shzp1u",
+      "Integrity": "TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/bundle/DuneLibrary.styles.css"
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "txkblmag9t",
-      "Integrity": "wSvkrgTFBmUH+45LOU0bX2AiwN9wgHxYiEsaCV8kBFQ=",
+      "Fingerprint": "luldnwt450",
+      "Integrity": "3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/bundle/DuneLibrary.styles.css"
@@ -1123,8 +1123,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "iyrrkwv6pz",
-      "Integrity": "trX5gbOEN8WkXM6ZAQgHfZlQe4hVjKcmlLHMKaAtmos=",
+      "Fingerprint": "vb2s2yrq97",
+      "Integrity": "Ncsw6Ut8AUGJ7ybKe+8VBZab2eNRjHrtJs9DcJwWx60=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/projectbundle/DuneLibrary.bundle.scp.css"
@@ -2115,6 +2115,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/sandDune1.webp"
+    },
+    {
+      "Identity": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune2.webp",
+      "SourceId": "DuneLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/",
+      "BasePath": "_content/DuneLibrary",
+      "RelativePath": "sandDune2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g0bdkv9cyu",
+      "Integrity": "AIfP/CgwmC2lNoXNm27Kudnaib+M0RD38dPHSl5GbnQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/sandDune2.webp"
+    },
+    {
+      "Identity": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune3.jpg",
+      "SourceId": "DuneLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/",
+      "BasePath": "_content/DuneLibrary",
+      "RelativePath": "sandDune3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dvehh3ehpb",
+      "Integrity": "iSJKwWkoiGNrnsn+bs0oFC0ALO1BObu4NJ0PbfM3W/w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/sandDune3.jpg"
+    },
+    {
+      "Identity": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune4.jpg",
+      "SourceId": "DuneLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/",
+      "BasePath": "_content/DuneLibrary",
+      "RelativePath": "sandDune4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1wwfviij01",
+      "Integrity": "QTtHUxj0RLAShqZIkMWBM4fBPkVpHFlU55zBriVQ8wY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/sandDune4.jpg"
     }
   ],
   "Endpoints": [
@@ -2745,12 +2808,12 @@
     },
     {
       "Route": "DuneLibrary.bundle.scp.css",
-      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-iyrrkwv6pz.gz",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-vb2s2yrq97.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000526870390"
+          "Quality": "0.000504540868"
         }
       ],
       "ResponseHeaders": [
@@ -2760,15 +2823,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1897"
+          "Value": "1981"
         },
         {
           "Name": "ETag",
-          "Value": "\"JW/USstHYzomwB/xhOXCwthZqH3IWzNn15PsTNqEpqk=\""
+          "Value": "\"Fs12xp1iwEwqQkfnijWTAV+oVgW4zsw64mKciLjskDU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2788,13 +2851,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"trX5gbOEN8WkXM6ZAQgHfZlQe4hVjKcmlLHMKaAtmos=\""
+          "Value": "W/\"Ncsw6Ut8AUGJ7ybKe+8VBZab2eNRjHrtJs9DcJwWx60=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-trX5gbOEN8WkXM6ZAQgHfZlQe4hVjKcmlLHMKaAtmos="
+          "Value": "sha256-Ncsw6Ut8AUGJ7ybKe+8VBZab2eNRjHrtJs9DcJwWx60="
         }
       ]
     },
@@ -2809,7 +2872,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6287"
+          "Value": "6581"
         },
         {
           "Name": "Content-Type",
@@ -2817,11 +2880,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"trX5gbOEN8WkXM6ZAQgHfZlQe4hVjKcmlLHMKaAtmos=\""
+          "Value": "\"Ncsw6Ut8AUGJ7ybKe+8VBZab2eNRjHrtJs9DcJwWx60=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2831,13 +2894,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-trX5gbOEN8WkXM6ZAQgHfZlQe4hVjKcmlLHMKaAtmos="
+          "Value": "sha256-Ncsw6Ut8AUGJ7ybKe+8VBZab2eNRjHrtJs9DcJwWx60="
         }
       ]
     },
     {
       "Route": "DuneLibrary.bundle.scp.css.gz",
-      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-iyrrkwv6pz.gz",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-vb2s2yrq97.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2909,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1897"
+          "Value": "1981"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2917,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JW/USstHYzomwB/xhOXCwthZqH3IWzNn15PsTNqEpqk=\""
+          "Value": "\"Fs12xp1iwEwqQkfnijWTAV+oVgW4zsw64mKciLjskDU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,18 +2939,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JW/USstHYzomwB/xhOXCwthZqH3IWzNn15PsTNqEpqk="
+          "Value": "sha256-Fs12xp1iwEwqQkfnijWTAV+oVgW4zsw64mKciLjskDU="
         }
       ]
     },
     {
-      "Route": "DuneLibrary.iyrrkwv6pz.bundle.scp.css",
-      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-iyrrkwv6pz.gz",
+      "Route": "DuneLibrary.luldnwt450.styles.css",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-luldnwt450.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000526870390"
+          "Quality": "0.000491883915"
         }
       ],
       "ResponseHeaders": [
@@ -2897,15 +2960,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1897"
+          "Value": "2032"
         },
         {
           "Name": "ETag",
-          "Value": "\"JW/USstHYzomwB/xhOXCwthZqH3IWzNn15PsTNqEpqk=\""
+          "Value": "\"TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2925,13 +2988,327 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"trX5gbOEN8WkXM6ZAQgHfZlQe4hVjKcmlLHMKaAtmos=\""
+          "Value": "W/\"3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iyrrkwv6pz"
+          "Value": "luldnwt450"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs="
+        },
+        {
+          "Name": "label",
+          "Value": "DuneLibrary.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "DuneLibrary.luldnwt450.styles.css",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/bundle/DuneLibrary.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "luldnwt450"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs="
+        },
+        {
+          "Name": "label",
+          "Value": "DuneLibrary.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "DuneLibrary.luldnwt450.styles.css.gz",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-luldnwt450.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "luldnwt450"
+        },
+        {
+          "Name": "label",
+          "Value": "DuneLibrary.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g="
+        }
+      ]
+    },
+    {
+      "Route": "DuneLibrary.styles.css",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-luldnwt450.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000491883915"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2032"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs="
+        }
+      ]
+    },
+    {
+      "Route": "DuneLibrary.styles.css",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/bundle/DuneLibrary.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs="
+        }
+      ]
+    },
+    {
+      "Route": "DuneLibrary.styles.css.gz",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-luldnwt450.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g="
+        }
+      ]
+    },
+    {
+      "Route": "DuneLibrary.vb2s2yrq97.bundle.scp.css",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-vb2s2yrq97.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000504540868"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1981"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fs12xp1iwEwqQkfnijWTAV+oVgW4zsw64mKciLjskDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Ncsw6Ut8AUGJ7ybKe+8VBZab2eNRjHrtJs9DcJwWx60=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vb2s2yrq97"
         },
         {
           "Name": "label",
@@ -2939,12 +3316,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-trX5gbOEN8WkXM6ZAQgHfZlQe4hVjKcmlLHMKaAtmos="
+          "Value": "sha256-Ncsw6Ut8AUGJ7ybKe+8VBZab2eNRjHrtJs9DcJwWx60="
         }
       ]
     },
     {
-      "Route": "DuneLibrary.iyrrkwv6pz.bundle.scp.css",
+      "Route": "DuneLibrary.vb2s2yrq97.bundle.scp.css",
       "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/projectbundle/DuneLibrary.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2954,7 +3331,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6287"
+          "Value": "6581"
         },
         {
           "Name": "Content-Type",
@@ -2962,11 +3339,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"trX5gbOEN8WkXM6ZAQgHfZlQe4hVjKcmlLHMKaAtmos=\""
+          "Value": "\"Ncsw6Ut8AUGJ7ybKe+8VBZab2eNRjHrtJs9DcJwWx60=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2976,7 +3353,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iyrrkwv6pz"
+          "Value": "vb2s2yrq97"
         },
         {
           "Name": "label",
@@ -2984,13 +3361,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-trX5gbOEN8WkXM6ZAQgHfZlQe4hVjKcmlLHMKaAtmos="
+          "Value": "sha256-Ncsw6Ut8AUGJ7ybKe+8VBZab2eNRjHrtJs9DcJwWx60="
         }
       ]
     },
     {
-      "Route": "DuneLibrary.iyrrkwv6pz.bundle.scp.css.gz",
-      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-iyrrkwv6pz.gz",
+      "Route": "DuneLibrary.vb2s2yrq97.bundle.scp.css.gz",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-vb2s2yrq97.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2999,7 +3376,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1897"
+          "Value": "1981"
         },
         {
           "Name": "Content-Type",
@@ -3007,11 +3384,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JW/USstHYzomwB/xhOXCwthZqH3IWzNn15PsTNqEpqk=\""
+          "Value": "\"Fs12xp1iwEwqQkfnijWTAV+oVgW4zsw64mKciLjskDU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
+          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3029,7 +3406,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iyrrkwv6pz"
+          "Value": "vb2s2yrq97"
         },
         {
           "Name": "label",
@@ -3037,321 +3414,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JW/USstHYzomwB/xhOXCwthZqH3IWzNn15PsTNqEpqk="
-        }
-      ]
-    },
-    {
-      "Route": "DuneLibrary.styles.css",
-      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-txkblmag9t.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000512032770"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1952"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Yg+RJta0ADPNo42uzTSYxTkCIILUfBGN7fMcSoifUmM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"wSvkrgTFBmUH+45LOU0bX2AiwN9wgHxYiEsaCV8kBFQ=\""
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wSvkrgTFBmUH+45LOU0bX2AiwN9wgHxYiEsaCV8kBFQ="
-        }
-      ]
-    },
-    {
-      "Route": "DuneLibrary.styles.css",
-      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/bundle/DuneLibrary.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6418"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wSvkrgTFBmUH+45LOU0bX2AiwN9wgHxYiEsaCV8kBFQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wSvkrgTFBmUH+45LOU0bX2AiwN9wgHxYiEsaCV8kBFQ="
-        }
-      ]
-    },
-    {
-      "Route": "DuneLibrary.styles.css.gz",
-      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-txkblmag9t.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1952"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Yg+RJta0ADPNo42uzTSYxTkCIILUfBGN7fMcSoifUmM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Yg+RJta0ADPNo42uzTSYxTkCIILUfBGN7fMcSoifUmM="
-        }
-      ]
-    },
-    {
-      "Route": "DuneLibrary.txkblmag9t.styles.css",
-      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-txkblmag9t.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000512032770"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1952"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Yg+RJta0ADPNo42uzTSYxTkCIILUfBGN7fMcSoifUmM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"wSvkrgTFBmUH+45LOU0bX2AiwN9wgHxYiEsaCV8kBFQ=\""
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "txkblmag9t"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wSvkrgTFBmUH+45LOU0bX2AiwN9wgHxYiEsaCV8kBFQ="
-        },
-        {
-          "Name": "label",
-          "Value": "DuneLibrary.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "DuneLibrary.txkblmag9t.styles.css",
-      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/bundle/DuneLibrary.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6418"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wSvkrgTFBmUH+45LOU0bX2AiwN9wgHxYiEsaCV8kBFQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "txkblmag9t"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wSvkrgTFBmUH+45LOU0bX2AiwN9wgHxYiEsaCV8kBFQ="
-        },
-        {
-          "Name": "label",
-          "Value": "DuneLibrary.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "DuneLibrary.txkblmag9t.styles.css.gz",
-      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-txkblmag9t.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1952"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Yg+RJta0ADPNo42uzTSYxTkCIILUfBGN7fMcSoifUmM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 03:22:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "txkblmag9t"
-        },
-        {
-          "Name": "label",
-          "Value": "DuneLibrary.styles.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Yg+RJta0ADPNo42uzTSYxTkCIILUfBGN7fMcSoifUmM="
+          "Value": "sha256-Fs12xp1iwEwqQkfnijWTAV+oVgW4zsw64mKciLjskDU="
         }
       ]
     },
@@ -16628,6 +16691,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-RoK5NOHpgLShEVMswwcuoPASuWsEMnVrn9eZ/r4RgGA="
+        }
+      ]
+    },
+    {
+      "Route": "sandDune2.g0bdkv9cyu.webp",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AIfP/CgwmC2lNoXNm27Kudnaib+M0RD38dPHSl5GbnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 04:40:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g0bdkv9cyu"
+        },
+        {
+          "Name": "label",
+          "Value": "sandDune2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AIfP/CgwmC2lNoXNm27Kudnaib+M0RD38dPHSl5GbnQ="
+        }
+      ]
+    },
+    {
+      "Route": "sandDune2.webp",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AIfP/CgwmC2lNoXNm27Kudnaib+M0RD38dPHSl5GbnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 04:40:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AIfP/CgwmC2lNoXNm27Kudnaib+M0RD38dPHSl5GbnQ="
+        }
+      ]
+    },
+    {
+      "Route": "sandDune3.dvehh3ehpb.jpg",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSJKwWkoiGNrnsn+bs0oFC0ALO1BObu4NJ0PbfM3W/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 04:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dvehh3ehpb"
+        },
+        {
+          "Name": "label",
+          "Value": "sandDune3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSJKwWkoiGNrnsn+bs0oFC0ALO1BObu4NJ0PbfM3W/w="
+        }
+      ]
+    },
+    {
+      "Route": "sandDune3.jpg",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSJKwWkoiGNrnsn+bs0oFC0ALO1BObu4NJ0PbfM3W/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 04:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSJKwWkoiGNrnsn+bs0oFC0ALO1BObu4NJ0PbfM3W/w="
+        }
+      ]
+    },
+    {
+      "Route": "sandDune4.1wwfviij01.jpg",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206531"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QTtHUxj0RLAShqZIkMWBM4fBPkVpHFlU55zBriVQ8wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 04:43:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1wwfviij01"
+        },
+        {
+          "Name": "label",
+          "Value": "sandDune4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QTtHUxj0RLAShqZIkMWBM4fBPkVpHFlU55zBriVQ8wY="
+        }
+      ]
+    },
+    {
+      "Route": "sandDune4.jpg",
+      "AssetFile": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206531"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QTtHUxj0RLAShqZIkMWBM4fBPkVpHFlU55zBriVQ8wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 04:43:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QTtHUxj0RLAShqZIkMWBM4fBPkVpHFlU55zBriVQ8wY="
         }
       ]
     }

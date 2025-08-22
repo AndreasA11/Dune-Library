@@ -1073,5 +1073,5 @@
 /Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-qyry0btwev.gz
 /Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-vrtpz534ii.gz
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/Components/Pages/PassagePages/Index.razor.rz.scp.css
-/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-txkblmag9t.gz
-/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-iyrrkwv6pz.gz
+/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-luldnwt450.gz
+/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-vb2s2yrq97.gz

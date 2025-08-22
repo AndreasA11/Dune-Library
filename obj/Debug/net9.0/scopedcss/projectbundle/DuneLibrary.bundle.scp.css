@@ -210,11 +210,16 @@ main[b-l50bhcdhvb] {
 }
 /* _content/DuneLibrary/Components/Pages/PassagePages/Index.razor.rz.scp.css */
 [b-5omq9k269d] tr {
-    height: 3em;
+    height: 5em;
+    border-color: burlywood;
+    border-width: .2em;
+    opacity: 70%;
+
 }
 
     [b-5omq9k269d] tr > td {
         vertical-align: middle;
+        
     }
 
 
@@ -223,14 +228,28 @@ body[b-5omq9k269d], html[b-5omq9k269d] {
 }
 
 .mainContent[b-5omq9k269d] {
-    background-image: url("sandDune1.webp");
-    position:relative;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    position: relative;
+    box-sizing: border-box;
+    
 }
 
+.backgroundImg[b-5omq9k269d] {
+    background-image: url("sandDune4.jpg");
+    opacity: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.quickGridDiv[b-5omq9k269d] {
+    margin: 5em;
+}
 
+.filterDiv[b-5omq9k269d] {
+    padding: 5em;
+}
+
+.passageText[b-5omq9k269d] {
+    padding-left: 2em;
+}
 

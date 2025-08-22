@@ -10,8 +10,8 @@
 
 <PageTitle>Welcome to Dune Library</PageTitle>
 
-<div class="mainContent">
-   <h1>Passages</h1>
+<div class="mainContent backgroundImg">
+   <h1 class="passageText">Passages</h1>
 
     <div class="filterDiv">
         <form action="/passages" data-enhance data-permanent>
@@ -59,7 +59,7 @@
     </p>
 
 
-    <div>
+    <div class="quickGridDiv">
         <QuickGrid Id="QG1" Class="table" Items="setFilteredPassage()" Pagination = "pagination">
             <PropertyColumn Property="passage => passage.Passages" Sortable="true" />
             <PropertyColumn Property="passage => passage.Book" Sortable="true" />
