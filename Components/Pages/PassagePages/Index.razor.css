@@ -5,3 +5,21 @@
     ::deep tr > td {
         vertical-align: middle;
     }
+
+
+body, html {
+    height: 100%;
+}
+
+.mainContent {
+    background-image: url("sandDune1.webp");
+    position:relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+
+
+

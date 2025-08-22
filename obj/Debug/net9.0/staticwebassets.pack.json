@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/projectbundle/DuneLibrary.bundle.scp.css",
-      "PackagePath": "staticwebassets/DuneLibrary.jtqt6quwku.bundle.scp.css"
+      "PackagePath": "staticwebassets/DuneLibrary.iyrrkwv6pz.bundle.scp.css"
     },
     {
       "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/app.css",
@@ -187,6 +187,10 @@
     {
       "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune1.webp",
+      "PackagePath": "staticwebassets/sandDune1.webp"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.DuneLibrary.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

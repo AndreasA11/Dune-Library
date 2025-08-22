@@ -5,3 +5,21 @@
     [b-5omq9k269d] tr > td {
         vertical-align: middle;
     }
+
+
+body[b-5omq9k269d], html[b-5omq9k269d] {
+    height: 100%;
+}
+
+.mainContent[b-5omq9k269d] {
+    background-image: url("sandDune1.webp");
+    position:relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+
+
+

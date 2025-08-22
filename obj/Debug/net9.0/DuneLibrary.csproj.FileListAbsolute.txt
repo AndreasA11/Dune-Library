@@ -61,7 +61,6 @@
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/5kyh9qwcph-h1s4sie4z3.gz
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/614gwf1mg2-63fj8s7r0e.gz
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/99n81cjcvs-0j3bgjxly4.gz
-/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-jtqt6quwku.gz
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/staticwebassets.build.json
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/staticwebassets.development.json
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -354,7 +353,6 @@
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/DuneLibrary.csproj.AssemblyReference.cache
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/unlu0xluo6-eu7w3d5g1a.gz
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3gin1ph7ub-25o87uqmvr.gz
-/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-19cx73o2ua.gz
 /root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/DuneLibr.C039C220.Up2Date
 /Users/andreasandradeshahinyan/CSharp/DuneLibrary/Dune-Library/bin/Debug/net9.0/appsettings.Development.json
 /Users/andreasandradeshahinyan/CSharp/DuneLibrary/Dune-Library/bin/Debug/net9.0/appsettings.json
@@ -1074,3 +1072,6 @@
 /Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/Components/Pages/PassagePages/Index.razor.rz.scp.css
 /Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-qyry0btwev.gz
 /Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-vrtpz534ii.gz
+/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/Components/Pages/PassagePages/Index.razor.rz.scp.css
+/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/6wh7xr6p1z-txkblmag9t.gz
+/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/compressed/3lrhbr6i8u-iyrrkwv6pz.gz

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DuneLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31d949a72cf97a9bf7a841fe877ee7814f6e47ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df569864d6525a7d053f27072c76848c25dddd6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DuneLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DuneLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

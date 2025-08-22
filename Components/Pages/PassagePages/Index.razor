@@ -10,74 +10,79 @@
 
 <PageTitle>Welcome to Dune Library</PageTitle>
 
-<h1>Passages</h1>
+<div class="mainContent">
+   <h1>Passages</h1>
 
-<div>
-    <form action="/passages" data-enhance data-permanent>
-        <label for="bookNameDrop">Filter by Book</label>
-        <select id="bookNameDrop"name = "BookNameDropdown">    
-            <option value=""></option>
-            <option value="Dune">Dune</option>
-            <option value="Dune Messiah">Dune Messiah</option>
-            <option value="Children of Dune">Children of Dune</option>
-            <option value="God Emperor of Dune">God Emperor of Dune</option>
-            <option value="Heretics of Dune">Heretics of Dune</option>
-            <option value="Chapterhouse: Dune">Chapterhouse: Dune</option>
-        </select>
-        <label for="organizationDropdown">Filter by Organization</label>
-        <select id="organizationDropdown"name = "OrganizationNameDropdown">    
-            <option value=""></option>
-            <option value="N/A">N/A</option>
-            <option value="Bene Gesserit">Bene Gesserit</option>
-            <option value="Bene Tleilax">Bene Tleilax</option>
-            <option value="CHOAM">CHOAM</option>
-            <option value="C.E.T.">C.E.T.</option>
-            <option value="Fremen">Fremen</option>
-            <option value="God Emperor Regime">God Emperor Regime</option>
-            <option value="Honored Matres">Honored Matres</option>
-            <option value="Mahdi Spirit Cult">Mahdi Spirit Cult</option>
-            <option value="Mentats">Mentats</option>
-            <option value="Muad'Dib's Empire">Muad'Dib's Empire</option>
-            <option value="Padishah Empire">Padishah Empire</option>
-            <option value="Spacing Guild">Spacing Guild</option>
-        </select>
-        <label for="authorSearch">Passage Author Name Search</label>
-        <input id="authorSearch" type="search" @bind="AuthorNameSearch" @bind:event="oninput">
-        <label for="seriesSearch">Series Search</label>
-        <input id="seriesSearch" type="search" @bind="SeriesSearchName" @bind:event="oninput">
-        <label for="keywordSearch">Passage Keyword Search</label>
-        <input id="keywordSearch" type="search" @bind="KeywordSearchName" @bind:event="oninput" />
-        
-        <input type="submit"/>
+    <div class="filterDiv">
+        <form action="/passages" data-enhance data-permanent>
+            <label for="bookNameDrop">Filter by Book</label>
+            <select id="bookNameDrop"name = "BookNameDropdown">    
+                <option value=""></option>
+                <option value="Dune">Dune</option>
+                <option value="Dune Messiah">Dune Messiah</option>
+                <option value="Children of Dune">Children of Dune</option>
+                <option value="God Emperor of Dune">God Emperor of Dune</option>
+                <option value="Heretics of Dune">Heretics of Dune</option>
+                <option value="Chapterhouse: Dune">Chapterhouse: Dune</option>
+            </select>
+            <label for="organizationDropdown">Filter by Organization</label>
+            <select id="organizationDropdown"name = "OrganizationNameDropdown">    
+                <option value=""></option>
+                <option value="N/A">N/A</option>
+                <option value="Bene Gesserit">Bene Gesserit</option>
+                <option value="Bene Tleilax">Bene Tleilax</option>
+                <option value="CHOAM">CHOAM</option>
+                <option value="C.E.T.">C.E.T.</option>
+                <option value="Fremen">Fremen</option>
+                <option value="God Emperor Regime">God Emperor Regime</option>
+                <option value="Honored Matres">Honored Matres</option>
+                <option value="Mahdi Spirit Cult">Mahdi Spirit Cult</option>
+                <option value="Mentats">Mentats</option>
+                <option value="Muad'Dib's Empire">Muad'Dib's Empire</option>
+                <option value="Padishah Empire">Padishah Empire</option>
+                <option value="Spacing Guild">Spacing Guild</option>
+            </select>
+            <label for="authorSearch">Passage Author Name Search</label>
+            <input id="authorSearch" type="search" @bind="AuthorNameSearch" @bind:event="oninput">
+            <label for="seriesSearch">Series Search</label>
+            <input id="seriesSearch" type="search" @bind="SeriesSearchName" @bind:event="oninput">
+            <label for="keywordSearch">Passage Keyword Search</label>
+            <input id="keywordSearch" type="search" @bind="KeywordSearchName" @bind:event="oninput" />
+            
+            <input type="submit"/>
 
-    </form>
+        </form>
+    </div>
+
+    <p>
+        <a href="passages/create">Create New</a>
+    </p>
+
+
+    <div>
+        <QuickGrid Id="QG1" Class="table" Items="setFilteredPassage()" Pagination = "pagination">
+            <PropertyColumn Property="passage => passage.Passages" Sortable="true" />
+            <PropertyColumn Property="passage => passage.Book" Sortable="true" />
+            <PropertyColumn Property="passage => passage.ChapterNum" Title ="Chapter #" Sortable="true" />
+            <PropertyColumn Property="passage => passage.Author" Sortable="true" />
+            <PropertyColumn Property="passage => passage.Series" Sortable="true"  />
+            <PropertyColumn Property="passage => passage.Organization" Sortable="true" />
+            <PropertyColumn Property="passage => passage.WordCount" Title ="Word Count" Sortable="true" />
+
+            <TemplateColumn Context="passage">
+                <a href="@($"passages/edit?id={passage.Id}")">Edit</a> |
+                <a href="@($"passages/details?id={passage.Id}")">Details</a> |
+                <a href="@($"passages/delete?id={passage.Id}")">Delete</a>
+            </TemplateColumn>
+        </QuickGrid>
+    </div>
+
+
+    <Paginator State="pagination" /> 
+    
 </div>
 
-<p>
-    <a href="passages/create">Create New</a>
-</p>
 
-
-<div>
-    <QuickGrid Id="QG1" Class="table" Items="setFilteredPassage()" Pagination = "pagination">
-        <PropertyColumn Property="passage => passage.Passages" Sortable="true" />
-        <PropertyColumn Property="passage => passage.Book" Sortable="true" />
-        <PropertyColumn Property="passage => passage.ChapterNum" Title ="Chapter #" Sortable="true" />
-        <PropertyColumn Property="passage => passage.Author" Sortable="true" />
-        <PropertyColumn Property="passage => passage.Series" Sortable="true"  />
-        <PropertyColumn Property="passage => passage.Organization" Sortable="true" />
-        <PropertyColumn Property="passage => passage.WordCount" Title ="Word Count" Sortable="true" />
-
-        <TemplateColumn Context="passage">
-            <a href="@($"passages/edit?id={passage.Id}")">Edit</a> |
-            <a href="@($"passages/details?id={passage.Id}")">Details</a> |
-            <a href="@($"passages/delete?id={passage.Id}")">Delete</a>
-        </TemplateColumn>
-    </QuickGrid>
-</div>
-
-
-<Paginator State="pagination" />
 
 
 @code {

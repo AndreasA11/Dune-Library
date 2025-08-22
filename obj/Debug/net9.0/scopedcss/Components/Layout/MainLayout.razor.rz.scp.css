@@ -36,6 +36,10 @@ main[b-l50bhcdhvb] {
         text-overflow: ellipsis;
     }
 
+.content[b-l50bhcdhvb]{
+    height: 100vh;
+}
+
 @media (max-width: 640.98px) {
     .top-row[b-l50bhcdhvb] {
         justify-content: space-between;

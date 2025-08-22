@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/DuneLibrary.csproj": {}
+    "/root/CSharp/DuneLibrary/DuneLibrary/DuneLibrary.csproj": {}
   },
   "projects": {
-    "/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/DuneLibrary.csproj": {
+    "/root/CSharp/DuneLibrary/DuneLibrary/DuneLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/DuneLibrary.csproj",
+        "projectUniqueName": "/root/CSharp/DuneLibrary/DuneLibrary/DuneLibrary.csproj",
         "projectName": "DuneLibrary",
-        "projectPath": "/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/DuneLibrary.csproj",
-        "packagesPath": "/Users/andreasandradeshahinyan/.nuget/packages/",
-        "outputPath": "/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/obj/",
+        "projectPath": "/root/CSharp/DuneLibrary/DuneLibrary/DuneLibrary.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/CSharp/DuneLibrary/DuneLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andreasandradeshahinyan/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -94,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
