@@ -17,7 +17,6 @@
         <h1 class="passageText">Welcome to Dune Library</h1>
     </div>
    
-
     <link href='https://fonts.googleapis.com/css?family=Macondo' rel='stylesheet'>
     
     <div class="filterDiv">
@@ -61,14 +60,9 @@
         </form>
     </div>
 
-    <p>
-        <a href="passages/create">Create New</a>
-    </p>
-
-
     <div class="quickGridDiv">
         <QuickGrid Theme="corporate" Id="QG1" Class="table" Items="setFilteredPassage()" Pagination = "pagination">
-            <PropertyColumn Property="passage => passage.Passages" Sortable="true" />
+            <PropertyColumn Property="passage => passage.Passages" Sortable="true" class="passageClass"/>
             <PropertyColumn Property="passage => passage.Book" Sortable="true" />
             <PropertyColumn Property="passage => passage.ChapterNum" Title ="Chapter #" Sortable="true" />
             <PropertyColumn Property="passage => passage.Author" Sortable="true" />
@@ -76,9 +70,9 @@
             <PropertyColumn Property="passage => passage.Organization" Sortable="true" />
             <PropertyColumn Property="passage => passage.WordCount" Title ="Word Count" Sortable="true" />
 
-            <TemplateColumn Context="passage">
+            <TemplateColumn Context="passage" Title="More Details">
+                <a href="@($"passages/details?id={passage.Id}")">See Full Passage</a> |
                 <a href="@($"passages/edit?id={passage.Id}")">Edit</a> |
-                <a href="@($"passages/details?id={passage.Id}")">Details</a> |
                 <a href="@($"passages/delete?id={passage.Id}")">Delete</a>
             </TemplateColumn>
         </QuickGrid>
@@ -87,6 +81,11 @@
 
     <Paginator State="pagination" /> 
     
+     <p>
+        <a href="passages/create">Create New</a>
+    </p>
+
+
 </div>
 
 

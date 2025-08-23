@@ -1,19 +1,42 @@
 ::deep tr {
-    height: 5em;
-    border-color: burlywood;
+    border-color: rgba(117, 106, 99, .5);
     border-width: .2em;
-    opacity: 70%;
-
+    background-color: rgba(200, 200, 200, 0.5);
+    max-height : 7em;
+    max-width: 10em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    table-layout: fixed;
+    
 }
 
     ::deep tr > td {
         vertical-align: middle;
         font-weight: 550;
         color: rgb(119, 85, 42);
+        background-color: rgba(219, 198, 184, 0.3);
+        max-height : 7em;
+        max-width: 10em;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        table-layout: fixed;
     }
+
+    ::deep tr > th {
+        background-color: rgba(219, 198, 184, 0.3);
+        table-layout: fixed;
+    }
+
+::deep tbody {
+   table-layout: fixed;
+}
 
 ::deep .quickgrid {
     font-family: 'Macondo';
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
 }
 
     ::deep .quickgrid .col-title {
@@ -21,6 +44,16 @@
         font-weight: bold;
         text-transform: uppercase;
         color: rgb(119, 85, 42);
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    ::deep .quickgrid .passageClass {
+        width : 60em;
+        height : 7em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        table-layout: fixed;
     }
 
 
@@ -35,8 +68,7 @@ body, html {
 }
 
 .backgroundImg {
-    background-image: url("sarahmarinophoto@gmail.comSandDune4.jpg");
-    opacity: 100%;
+    background-image: linear-gradient(rgba(200, 200, 200, 0.7)), url("sandDune5CopyrightFREE.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,13 +82,18 @@ body, html {
     padding: 5em;
 }
 
-.passageText {
-    padding-left: 2em;
+.title {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
 h1 {
     padding: .25em;
+    padding-top: .50em;
+    justify-content: center;
     justify-self: center;
+    text-align: center;
     font-family: 'Herbertarian';
     font-weight: bolder;
     font-size: 100px;
@@ -67,3 +104,4 @@ h1 {
     font-family: 'Herbertarian';
     src: url("OrthodoxHerbertarian.ttf");
 }
+

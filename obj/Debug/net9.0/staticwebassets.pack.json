@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/projectbundle/DuneLibrary.bundle.scp.css",
-      "PackagePath": "staticwebassets/DuneLibrary.hilro6dmjo.bundle.scp.css"
+      "PackagePath": "staticwebassets/DuneLibrary.k3o1f9m09i.bundle.scp.css"
     },
     {
       "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/CopyrightFREEsandDune5.jpg",
@@ -207,6 +207,10 @@
     {
       "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune3.jpg",
       "PackagePath": "staticwebassets/sandDune3.jpg"
+    },
+    {
+      "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune5CopyrightFREE.jpg",
+      "PackagePath": "staticwebassets/sandDune5CopyrightFREE.jpg"
     },
     {
       "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sarahmarinophoto@gmail.comSandDune4.jpg",

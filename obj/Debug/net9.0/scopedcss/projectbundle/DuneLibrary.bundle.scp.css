@@ -210,21 +210,44 @@ main[b-l50bhcdhvb] {
 }
 /* _content/DuneLibrary/Components/Pages/PassagePages/Index.razor.rz.scp.css */
 [b-5omq9k269d] tr {
-    height: 5em;
-    border-color: burlywood;
+    border-color: rgba(117, 106, 99, .5);
     border-width: .2em;
-    opacity: 70%;
-
+    background-color: rgba(200, 200, 200, 0.5);
+    max-height : 7em;
+    max-width: 10em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    table-layout: fixed;
+    
 }
 
     [b-5omq9k269d] tr > td {
         vertical-align: middle;
         font-weight: 550;
         color: rgb(119, 85, 42);
+        background-color: rgba(219, 198, 184, 0.3);
+        max-height : 7em;
+        max-width: 10em;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        table-layout: fixed;
     }
+
+    [b-5omq9k269d] tr > th {
+        background-color: rgba(219, 198, 184, 0.3);
+        table-layout: fixed;
+    }
+
+[b-5omq9k269d] tbody {
+   table-layout: fixed;
+}
 
 [b-5omq9k269d] .quickgrid {
     font-family: 'Macondo';
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
 }
 
     [b-5omq9k269d] .quickgrid .col-title {
@@ -232,6 +255,16 @@ main[b-l50bhcdhvb] {
         font-weight: bold;
         text-transform: uppercase;
         color: rgb(119, 85, 42);
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    [b-5omq9k269d] .quickgrid .passageClass {
+        width : 60em;
+        height : 7em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        table-layout: fixed;
     }
 
 
@@ -246,8 +279,7 @@ body[b-5omq9k269d], html[b-5omq9k269d] {
 }
 
 .backgroundImg[b-5omq9k269d] {
-    background-image: url("sarahmarinophoto@gmail.comSandDune4.jpg");
-    opacity: 100%;
+    background-image: linear-gradient(rgba(200, 200, 200, 0.7)), url("sandDune5CopyrightFREE.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,13 +293,18 @@ body[b-5omq9k269d], html[b-5omq9k269d] {
     padding: 5em;
 }
 
-.passageText[b-5omq9k269d] {
-    padding-left: 2em;
+.title[b-5omq9k269d] {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
 h1[b-5omq9k269d] {
     padding: .25em;
+    padding-top: .50em;
+    justify-content: center;
     justify-self: center;
+    text-align: center;
     font-family: 'Herbertarian';
     font-weight: bolder;
     font-size: 100px;
@@ -278,3 +315,4 @@ h1[b-5omq9k269d] {
     font-family: 'Herbertarian';
     src: url("OrthodoxHerbertarian.ttf");
 }
+
