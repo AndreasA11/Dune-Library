@@ -219,7 +219,19 @@ main[b-l50bhcdhvb] {
 
     [b-5omq9k269d] tr > td {
         vertical-align: middle;
-        
+        font-weight: 550;
+        color: rgb(119, 85, 42);
+    }
+
+[b-5omq9k269d] .quickgrid {
+    font-family: 'Macondo';
+}
+
+    [b-5omq9k269d] .quickgrid .col-title {
+        gap: 0.4rem; /* Separate the sort indicator from title text */
+        font-weight: bold;
+        text-transform: uppercase;
+        color: rgb(119, 85, 42);
     }
 
 
@@ -234,7 +246,7 @@ body[b-5omq9k269d], html[b-5omq9k269d] {
 }
 
 .backgroundImg[b-5omq9k269d] {
-    background-image: url("sandDune4.jpg");
+    background-image: url("sarahmarinophoto@gmail.comSandDune4.jpg");
     opacity: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -253,3 +265,16 @@ body[b-5omq9k269d], html[b-5omq9k269d] {
     padding-left: 2em;
 }
 
+h1[b-5omq9k269d] {
+    padding: .25em;
+    justify-self: center;
+    font-family: 'Herbertarian';
+    font-weight: bolder;
+    font-size: 100px;
+    color: rgb(119, 85, 42);
+}
+
+@font-face {
+    font-family: 'Herbertarian';
+    src: url("OrthodoxHerbertarian.ttf");
+}

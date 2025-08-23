@@ -8,11 +8,18 @@
 @implements IAsyncDisposable
 @inject IDbContextFactory<DuneLibrary.Data.DuneLibraryContext> DbFactory
 
-<PageTitle>Welcome to Dune Library</PageTitle>
+<PageTitle>Dune Library</PageTitle>
+
+
 
 <div class="mainContent backgroundImg">
-   <h1 class="passageText">Passages</h1>
+    <div class="title">
+        <h1 class="passageText">Welcome to Dune Library</h1>
+    </div>
+   
 
+    <link href='https://fonts.googleapis.com/css?family=Macondo' rel='stylesheet'>
+    
     <div class="filterDiv">
         <form action="/passages" data-enhance data-permanent>
             <label for="bookNameDrop">Filter by Book</label>
@@ -60,7 +67,7 @@
 
 
     <div class="quickGridDiv">
-        <QuickGrid Id="QG1" Class="table" Items="setFilteredPassage()" Pagination = "pagination">
+        <QuickGrid Theme="corporate" Id="QG1" Class="table" Items="setFilteredPassage()" Pagination = "pagination">
             <PropertyColumn Property="passage => passage.Passages" Sortable="true" />
             <PropertyColumn Property="passage => passage.Book" Sortable="true" />
             <PropertyColumn Property="passage => passage.ChapterNum" Title ="Chapter #" Sortable="true" />

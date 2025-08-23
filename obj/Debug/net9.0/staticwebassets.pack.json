@@ -2,7 +2,15 @@
   "Files": [
     {
       "Id": "/root/CSharp/DuneLibrary/DuneLibrary/obj/Debug/net9.0/scopedcss/projectbundle/DuneLibrary.bundle.scp.css",
-      "PackagePath": "staticwebassets/DuneLibrary.vb2s2yrq97.bundle.scp.css"
+      "PackagePath": "staticwebassets/DuneLibrary.hilro6dmjo.bundle.scp.css"
+    },
+    {
+      "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/CopyrightFREEsandDune5.jpg",
+      "PackagePath": "staticwebassets/CopyrightFREEsandDune5.jpg"
+    },
+    {
+      "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/OrthodoxHerbertarian.ttf",
+      "PackagePath": "staticwebassets/OrthodoxHerbertarian.ttf"
     },
     {
       "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/app.css",
@@ -201,8 +209,8 @@
       "PackagePath": "staticwebassets/sandDune3.jpg"
     },
     {
-      "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sandDune4.jpg",
-      "PackagePath": "staticwebassets/sandDune4.jpg"
+      "Id": "/root/CSharp/DuneLibrary/DuneLibrary/wwwroot/sarahmarinophoto@gmail.comSandDune4.jpg",
+      "PackagePath": "staticwebassets/sarahmarinophoto@gmail.comSandDune4.jpg"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.DuneLibrary.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

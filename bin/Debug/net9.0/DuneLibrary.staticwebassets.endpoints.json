@@ -3,75 +3,8 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "DuneLibrary.luldnwt450.styles.css",
-      "AssetFile": "DuneLibrary.styles.css.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000491883915"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2032"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "luldnwt450"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs="
-        },
-        {
-          "Name": "label",
-          "Value": "DuneLibrary.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "DuneLibrary.luldnwt450.styles.css",
-      "AssetFile": "DuneLibrary.styles.css",
+      "Route": "CopyrightFREEsandDune5.htdl5frmcf.jpg",
+      "AssetFile": "CopyrightFREEsandDune5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -84,43 +17,39 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6712"
+          "Value": "1222457"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs=\""
+          "Value": "\"NSqXpK2rQkhG2abWhI67ucuXazfC7PzbmIwXolL+jPs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+          "Value": "Sat, 23 Aug 2025 03:06:50 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "luldnwt450"
+          "Value": "htdl5frmcf"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs="
+          "Value": "sha256-NSqXpK2rQkhG2abWhI67ucuXazfC7PzbmIwXolL+jPs="
         },
         {
           "Name": "label",
-          "Value": "DuneLibrary.styles.css"
+          "Value": "CopyrightFREEsandDune5.jpg"
         }
       ]
     },
     {
-      "Route": "DuneLibrary.luldnwt450.styles.css.gz",
-      "AssetFile": "DuneLibrary.styles.css.gz",
+      "Route": "CopyrightFREEsandDune5.jpg",
+      "AssetFile": "CopyrightFREEsandDune5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -129,45 +58,29 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
-          "Value": "2032"
+          "Value": "1222457"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g=\""
+          "Value": "\"NSqXpK2rQkhG2abWhI67ucuXazfC7PzbmIwXolL+jPs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
+          "Value": "Sat, 23 Aug 2025 03:06:50 GMT"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "luldnwt450"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g="
-        },
-        {
-          "Name": "label",
-          "Value": "DuneLibrary.styles.css.gz"
+          "Value": "sha256-NSqXpK2rQkhG2abWhI67ucuXazfC7PzbmIwXolL+jPs="
         }
       ]
     },
@@ -178,7 +91,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000491883915"
+          "Quality": "0.000445434298"
         }
       ],
       "ResponseHeaders": [
@@ -196,7 +109,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2032"
+          "Value": "2244"
         },
         {
           "Name": "Content-Type",
@@ -204,15 +117,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g=\""
+          "Value": "\"oZJeuwpCyrrLltIluQRbvORA/gtDDqmr3VUgJG9x+ko=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs=\""
+          "Value": "W/\"gti0Cn3LOXbqfAxYoKss39gWbB7r5zXvfumyBpdvwXU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
+          "Value": "Sat, 23 Aug 2025 03:35:17 GMT"
         },
         {
           "Name": "Link",
@@ -226,7 +139,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs="
+          "Value": "sha256-gti0Cn3LOXbqfAxYoKss39gWbB7r5zXvfumyBpdvwXU="
         }
       ]
     },
@@ -245,7 +158,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6712"
+          "Value": "7330"
         },
         {
           "Name": "Content-Type",
@@ -253,11 +166,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs=\""
+          "Value": "\"gti0Cn3LOXbqfAxYoKss39gWbB7r5zXvfumyBpdvwXU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
+          "Value": "Sat, 23 Aug 2025 03:35:17 GMT"
         },
         {
           "Name": "Link",
@@ -267,7 +180,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3XZusafsTwBc7hEMLRyQB2CAmVPKBZkGfaI5FpEjVSs="
+          "Value": "sha256-gti0Cn3LOXbqfAxYoKss39gWbB7r5zXvfumyBpdvwXU="
         }
       ]
     },
@@ -290,7 +203,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2032"
+          "Value": "2244"
         },
         {
           "Name": "Content-Type",
@@ -298,11 +211,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g=\""
+          "Value": "\"oZJeuwpCyrrLltIluQRbvORA/gtDDqmr3VUgJG9x+ko=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 22 Aug 2025 19:12:31 GMT"
+          "Value": "Sat, 23 Aug 2025 03:35:17 GMT"
         },
         {
           "Name": "Vary",
@@ -312,7 +225,258 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TdmgHRXe+/7ZdxJi2T/79fY9rxYg+aKS5W58MYCmA7g="
+          "Value": "sha256-oZJeuwpCyrrLltIluQRbvORA/gtDDqmr3VUgJG9x+ko="
+        }
+      ]
+    },
+    {
+      "Route": "DuneLibrary.usn03b0jii.styles.css",
+      "AssetFile": "DuneLibrary.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000445434298"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oZJeuwpCyrrLltIluQRbvORA/gtDDqmr3VUgJG9x+ko=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gti0Cn3LOXbqfAxYoKss39gWbB7r5zXvfumyBpdvwXU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Aug 2025 03:35:17 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "usn03b0jii"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gti0Cn3LOXbqfAxYoKss39gWbB7r5zXvfumyBpdvwXU="
+        },
+        {
+          "Name": "label",
+          "Value": "DuneLibrary.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "DuneLibrary.usn03b0jii.styles.css",
+      "AssetFile": "DuneLibrary.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gti0Cn3LOXbqfAxYoKss39gWbB7r5zXvfumyBpdvwXU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Aug 2025 03:35:17 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "usn03b0jii"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gti0Cn3LOXbqfAxYoKss39gWbB7r5zXvfumyBpdvwXU="
+        },
+        {
+          "Name": "label",
+          "Value": "DuneLibrary.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "DuneLibrary.usn03b0jii.styles.css.gz",
+      "AssetFile": "DuneLibrary.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2244"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oZJeuwpCyrrLltIluQRbvORA/gtDDqmr3VUgJG9x+ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Aug 2025 03:35:17 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "usn03b0jii"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oZJeuwpCyrrLltIluQRbvORA/gtDDqmr3VUgJG9x+ko="
+        },
+        {
+          "Name": "label",
+          "Value": "DuneLibrary.styles.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "OrthodoxHerbertarian.l0y6311793.ttf",
+      "AssetFile": "OrthodoxHerbertarian.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7db1lucI+aft85ph8lSTS666ysXF/FtDCPaPn8Z7+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Aug 2025 03:34:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l0y6311793"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7db1lucI+aft85ph8lSTS666ysXF/FtDCPaPn8Z7+o="
+        },
+        {
+          "Name": "label",
+          "Value": "OrthodoxHerbertarian.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "OrthodoxHerbertarian.ttf",
+      "AssetFile": "OrthodoxHerbertarian.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7db1lucI+aft85ph8lSTS666ysXF/FtDCPaPn8Z7+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Aug 2025 03:34:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7db1lucI+aft85ph8lSTS666ysXF/FtDCPaPn8Z7+o="
         }
       ]
     },
@@ -14382,8 +14546,8 @@
       ]
     },
     {
-      "Route": "sandDune4.1wwfviij01.jpg",
-      "AssetFile": "sandDune4.jpg",
+      "Route": "sarahmarinophoto@gmail.comSandDune4.1wwfviij01.jpg",
+      "AssetFile": "sarahmarinophoto@gmail.comSandDune4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14422,13 +14586,13 @@
         },
         {
           "Name": "label",
-          "Value": "sandDune4.jpg"
+          "Value": "sarahmarinophoto@gmail.comSandDune4.jpg"
         }
       ]
     },
     {
-      "Route": "sandDune4.jpg",
-      "AssetFile": "sandDune4.jpg",
+      "Route": "sarahmarinophoto@gmail.comSandDune4.jpg",
+      "AssetFile": "sarahmarinophoto@gmail.comSandDune4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
