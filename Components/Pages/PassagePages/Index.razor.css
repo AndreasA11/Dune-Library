@@ -12,12 +12,11 @@
 
     ::deep tr > td {
         vertical-align: middle;
-        font-weight: 550;
+        font-weight: 400;
         color: rgb(119, 85, 42);
         background-color: rgba(219, 198, 184, 0.3);
         max-height : 7em;
         max-width: 10em;
-        white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
         table-layout: fixed;
@@ -36,7 +35,7 @@
     font-family: 'Macondo';
     text-overflow: ellipsis;
     overflow: hidden;
-    
+    table-layout: fixed;
 }
 
     ::deep .quickgrid .col-title {
@@ -49,16 +48,19 @@
     }
 
     ::deep .quickgrid .passageClass {
-        width : 60em;
-        height : 7em;
+        width : 40vw;
+        height : 10em;
         text-overflow: ellipsis;
+        white-space: nowrap;
         overflow: hidden;
+        text-overflow: ellipsis;
         table-layout: fixed;
     }
 
 
 body, html {
     height: 100%;
+    margin: 0;
 }
 
 .mainContent {
@@ -67,12 +69,7 @@ body, html {
     
 }
 
-.backgroundImg {
-    background-image: linear-gradient(rgba(200, 200, 200, 0.7)), url("sandDune5CopyrightFREE.jpg"); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .quickGridDiv {
     margin: 5em;

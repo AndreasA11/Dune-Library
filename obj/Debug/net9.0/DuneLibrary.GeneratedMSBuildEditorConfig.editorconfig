@@ -17,69 +17,69 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DuneLibrary
 build_property.RootNamespace = DuneLibrary
-build_property.ProjectDir = /root/CSharp/DuneLibrary/DuneLibrary/
+build_property.ProjectDir = /Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /root/CSharp/DuneLibrary/DuneLibrary
+build_property.MSBuildProjectDirectory = /Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/App.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Pages/Counter.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Pages/Error.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Pages/Home.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Create.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9QYXNzYWdlUGFnZXMvQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Delete.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9QYXNzYWdlUGFnZXMvRGVsZXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Details.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9QYXNzYWdlUGFnZXMvRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Edit.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9QYXNzYWdlUGFnZXMvRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Pages/Weather.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Routes.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/_Imports.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Layout/MainLayout.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-l50bhcdhvb
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Layout/NavMenu.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-u0cwcvwj11
 
-[/root/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Index.razor]
+[/Users/andreasandradeshahinyan/CSharp/DuneLibrary/DuneLibrary/Components/Pages/PassagePages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9QYXNzYWdlUGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-5omq9k269d

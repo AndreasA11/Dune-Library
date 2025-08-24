@@ -1,4 +1,4 @@
-@page "/passages/delete"
+@page "/delete"
 @using Microsoft.EntityFrameworkCore
 @using DuneLibrary.Models
 @inject IDbContextFactory<DuneLibrary.Data.DuneLibraryContext> DbFactory
@@ -51,7 +51,7 @@
         </dl>
         <EditForm method="post" Model="passage" OnValidSubmit="DeletePassage" FormName="delete" Enhance>
             <button type="submit" class="btn btn-danger" disabled="@(passage is null)">Delete</button> |
-            <a href="/passages">Back to List</a>
+            <a href="/?BookNameDropdown=&OrganizationNameDropdown=">Back to List</a>
         </EditForm>
     }
 </div>
@@ -78,6 +78,6 @@
         using var context = DbFactory.CreateDbContext();
         context.Passage.Remove(passage!);
         await context.SaveChangesAsync();
-        NavigationManager.NavigateTo("/passages");
+        NavigationManager.NavigateTo("/");
     }
 }

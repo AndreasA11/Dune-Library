@@ -36,8 +36,17 @@ main[b-l50bhcdhvb] {
         text-overflow: ellipsis;
     }
 
+body[b-l50bhcdhvb], html[b-l50bhcdhvb] {
+    height: 100%;
+    margin: 0;
+}
+
 .content[b-l50bhcdhvb]{
-    height: 100vh;
+    height: 100%;
+    background-image: linear-gradient(rgba(200, 200, 200, 0.7)), url("sandDune5CopyrightFREE.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 640.98px) {

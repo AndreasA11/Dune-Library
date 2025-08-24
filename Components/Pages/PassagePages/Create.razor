@@ -1,4 +1,4 @@
-@page "/passages/create"
+@page "/create"
 @using Microsoft.EntityFrameworkCore
 @using DuneLibrary.Models
 @inject IDbContextFactory<DuneLibrary.Data.DuneLibraryContext> DbFactory
@@ -62,7 +62,7 @@
 </div>
 
 <div>
-    <a href="/passages">Back to List</a>
+    <a href="/?BookNameDropdown=&OrganizationNameDropdown=">Back to List</a>
 </div>
 
 @code {
@@ -75,6 +75,6 @@
         using var context = DbFactory.CreateDbContext();
         context.Passage.Add(Passage);
         await context.SaveChangesAsync();
-        NavigationManager.NavigateTo("/passages");
+        NavigationManager.NavigateTo("/");
     }
 }
